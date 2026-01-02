@@ -4,9 +4,9 @@ import re
 
 # 1. Сюда вставляйте ваши актуальные ссылки
 urls = [
-    "iptv-org.github.io",
+    "https://edge02r.mediavitrina.ru/hls-livef1/russia1/tracks-v4a1/mono.m3u8?token=v2.qjZuGE7Y62PeX7haw_PAdrwXcQVIOliYBfhz5cN4Ikc.hcXF89oTKmbhgEPYC8bCoPfubOrLAgDsxOgMAeaSnYc.1767948440.97d652f9032c079347440e41d2b6ffee",
     "raw.githubusercontent.com",
-    "http://example.com/playlist1.m3u" # Замените на свои
+    "http://example.com/playlist1.m3u"
 ]
 
 def update_playlist():
