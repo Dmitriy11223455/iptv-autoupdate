@@ -12,7 +12,7 @@ urls = [
     "https://edge01d.mediavitrina.ru/hls-livef8/zvezda0/tracks-v4a1/mono.m3u8?token=v2.GAV5MF6CeV8ebN1gc5EUxCTDmhsJBz9khxpWfQXToK0.1Hyd0fikPonZT5vsEti1i7fQyy3wDYJe0H3beLljMd0.1767949400.06e140671c70939cea17c4fcc8572edc",
     "https://edge01r.mediavitrina.ru/hls-livef6/russia24/tracks-v4a1/mono.m3u8?token=v2.72zaSmGxds5G8-sQmS8oNkrfS0yVjTUDkl2cZ11LjdU.6BNbUOy2LWIM6jVXoeeOcHV5XAgr8VxCaOesJ0i0ssA.1767949447.9b05320998c60628792a448db8383060"
     "raw.githubusercontent.com",
-    "https://raw.githubusercontent.com/Dmitriy11223455/iptv-autoupdate/refs/heads/main/iptv.m3u"
+    "https://raw.githubusercontent.com/Dmitriy11223455/iptv-autoupdate/refs/heads/main/playlist.m3u"
 ]
 
 def update_playlist():
