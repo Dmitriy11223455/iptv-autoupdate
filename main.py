@@ -4,7 +4,7 @@ import requests
 def get_fresh_token():
     # !!! Здесь должна быть ваша логика получения токена !!!
     # Например, парсинг страницы или запрос к API.
-    return "v7.BsesjiTIAONQ7egh737eg51CA=hMXFFR<3014DCAU..."
+    return "v2.29uW9lo3rREaPqtecVB_LDnStNcrz-qbQA4B_arf8bE.e0X7PXldkyFiHzQ1odpwVSIjKprVsPYEymGD0akF84c"
 
 def update_playlist_with_tokens():
     token = get_fresh_token()
