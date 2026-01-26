@@ -14,19 +14,25 @@ async def main():
     playlist = []
 
     async with async_playwright() as p:
-        # Запуск системного Chrome
+        # Запускаем Chrome (если установлен в CI)
         browser = await p.chromium.launch(
             headless=True,
-            executable_path="/usr/bin/google-chrome"  # путь к Chrome
+            executable_path="/usr/bin/google-chrome"  # путь к Chrome в GitHub Actions
         )
         context = await browser.new_context()
         page = await context.new_page()
 
         for name, url in channels.items():
             print(f"Открываю {name}...")
-            await page.goto(url)
-            await page.wait_for_timeout(5000)
+            try:
+                # Увеличенный таймаут и ожидание DOM
+                await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+                await page.wait_for_timeout(10000)  # ждём 10 секунд
+            except Exception as e:
+                print(f"Ошибка при загрузке {name}: {e}")
+                continue
 
+            # Перехватываем запросы
             for request in context.requests:
                 if ".m3u8" in request.url:
                     playlist.append((name, request.url))
@@ -35,6 +41,7 @@ async def main():
 
         await browser.close()
 
+    # Сохраняем результат
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for name, link in playlist:
@@ -44,5 +51,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
