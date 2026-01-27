@@ -1,15 +1,6 @@
 import asyncio
 from playwright.async_api import async_playwright
 
-channels = {
-    "Первый канал": "https://smotrettv.com/tv/public/1003-pervyj-kanal.html",
-    "Россия 1": "https://smotrettv.com/tv/public/784-rossija-1.html",
-    "НТВ": "https://smotrettv.com/tv/public/6-ntv.html",
-    "ТНТ": "https://smotrettv.com/tv/entertainment/329-tnt.html",
-    "РЕН ТВ": "https://smotrettv.com/tv/public/316-ren-tv.html"
-}
-
-# Популярные селекторы кнопки Play
 PLAY_SELECTORS = [
     ".vjs-big-play-button",
     "button.play",
@@ -18,15 +9,27 @@ PLAY_SELECTORS = [
     ".start-button"
 ]
 
-async def click_play(page):
+async def click_play_in_frames(page):
+    # пробуем кликнуть в основном документе
     for selector in PLAY_SELECTORS:
         try:
             await page.click(selector, timeout=3000)
-            print(f"Клик по {selector} выполнен")
+            print(f"Клик по {selector} выполнен (основной документ)")
             return True
         except:
             continue
-    print("Не удалось найти кнопку Play")
+
+    # пробуем кликнуть во всех фреймах
+    for frame in page.frames:
+        for selector in PLAY_SELECTORS:
+            try:
+                await frame.click(selector, timeout=3000)
+                print(f"Клик по {selector} выполнен (iframe)")
+                return True
+            except:
+                continue
+
+    print("Не удалось найти кнопку Play ни в основном документе, ни во фреймах")
     return False
 
 async def main():
@@ -42,12 +45,12 @@ async def main():
         context.on("request", lambda req: print("[REQ]", req.url))
         context.on("response", lambda resp: print("[RESP]", resp.url))
 
-        url = channels["Первый канал"]
+        url = "https://smotrettv.com/tv/public/1003-pervyj-kanal.html"
         print(f"Открываю {url}...")
         await page.goto(url, timeout=60000, wait_until="domcontentloaded")
 
         # Пробуем кликнуть Play
-        await click_play(page)
+        await click_play_in_frames(page)
 
         # Ждём, пока появятся запросы
         await page.wait_for_timeout(30000)
@@ -56,6 +59,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
