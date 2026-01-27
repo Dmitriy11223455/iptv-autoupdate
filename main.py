@@ -24,7 +24,7 @@ async def main():
             print(f"Открываю {name}...")
             found = None
 
-            # Обработчики для запросов и ответов
+            # Обработчики
             def handle_request(request):
                 nonlocal found
                 if ".m3u8" in request.url:
@@ -37,6 +37,7 @@ async def main():
                     found = response.url
                     print(f"[RESPONSE] Найдено: {found}")
 
+            # Подписка
             page.on("request", handle_request)
             page.on("response", handle_response)
 
@@ -53,9 +54,9 @@ async def main():
             else:
                 print(f"Для {name} ничего не найдено")
 
-            # снимаем обработчики, чтобы не мешали следующему каналу
-            page.off("request", handle_request)
-            page.off("response", handle_response)
+            # Снятие обработчиков
+            page.remove_listener("request", handle_request)
+            page.remove_listener("response", handle_response)
 
         await browser.close()
 
@@ -69,7 +70,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
 
 
 
