@@ -1,4 +1,3 @@
-
 import asyncio
 from playwright.async_api import async_playwright
 
@@ -21,28 +20,42 @@ async def main():
         context = await browser.new_context()
         page = await context.new_page()
 
-        # Список для хранения найденных ссылок
-        found_links = {}
-
-        # Обработчик запросов
-        page.on("request", lambda request: (
-            found_links.setdefault(page.url, request.url)
-            if ".m3u8" in request.url else None
-        ))
-
         for name, url in channels.items():
             print(f"Открываю {name}...")
+            found = None
+
+            # Обработчики для запросов и ответов
+            def handle_request(request):
+                nonlocal found
+                if ".m3u8" in request.url:
+                    found = request.url
+                    print(f"[REQUEST] Найдено: {found}")
+
+            def handle_response(response):
+                nonlocal found
+                if ".m3u8" in response.url:
+                    found = response.url
+                    print(f"[RESPONSE] Найдено: {found}")
+
+            page.on("request", handle_request)
+            page.on("response", handle_response)
+
             try:
                 await page.goto(url, timeout=60000, wait_until="domcontentloaded")
-                await page.wait_for_timeout(10000)
+                await page.wait_for_timeout(20000)  # ждём 20 секунд
             except Exception as e:
                 print(f"Ошибка при загрузке {name}: {e}")
                 continue
 
-            # Проверяем, был ли найден .m3u8
-            if page.url in found_links:
-                playlist.append((name, found_links[page.url]))
-                print(f"Найдено: {found_links[page.url]}")
+            if found:
+                playlist.append((name, found))
+                print(f"Добавлено в плейлист: {found}")
+            else:
+                print(f"Для {name} ничего не найдено")
+
+            # снимаем обработчики, чтобы не мешали следующему каналу
+            page.off("request", handle_request)
+            page.off("response", handle_response)
 
         await browser.close()
 
