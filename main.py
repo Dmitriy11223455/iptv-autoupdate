@@ -20,56 +20,41 @@ async def main():
         context = await browser.new_context()
         page = await context.new_page()
 
-        for name, url in channels.items():
-            print(f"Открываю {name}...")
-            found = None
+        def handle_request(request):
+            url = request.url
+            if any(ext in url for ext in [".m3u8", ".mpd", ".ts"]):
+                print(f"[REQUEST] {url}")
+                playlist.append(("UNKNOWN", url))
 
-            # Обработчики
-            def handle_request(request):
-                nonlocal found
-                if ".m3u8" in request.url:
-                    found = request.url
-                    print(f"[REQUEST] Найдено: {found}")
+        def handle_response(response):
+            url = response.url
+            if any(ext in url for ext in [".m3u8", ".mpd", ".ts"]):
+                print(f"[RESPONSE] {url}")
+                playlist.append(("UNKNOWN", url))
 
-            def handle_response(response):
-                nonlocal found
-                if ".m3u8" in response.url:
-                    found = response.url
-                    print(f"[RESPONSE] Найдено: {found}")
+        # Подписка на все запросы/ответы
+        context.on("request", handle_request)
+        context.on("response", handle_response)
 
-            # Подписка
-            page.on("request", handle_request)
-            page.on("response", handle_response)
-
-            try:
-                await page.goto(url, timeout=60000, wait_until="domcontentloaded")
-                await page.wait_for_timeout(20000)  # ждём 20 секунд
-            except Exception as e:
-                print(f"Ошибка при загрузке {name}: {e}")
-                continue
-
-            if found:
-                playlist.append((name, found))
-                print(f"Добавлено в плейлист: {found}")
-            else:
-                print(f"Для {name} ничего не найдено")
-
-            # Снятие обработчиков
-            page.remove_listener("request", handle_request)
-            page.remove_listener("response", handle_response)
+        # Тестируем один канал
+        url = channels["Первый канал"]
+        print(f"Открываю {url}...")
+        await page.goto(url, timeout=60000, wait_until="domcontentloaded")
+        await page.wait_for_timeout(30000)  # ждём 30 секунд
 
         await browser.close()
 
     # Сохраняем результат
-    with open("playlist.m3u", "w", encoding="utf-8") as f:
+    with open("debug_playlist.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for name, link in playlist:
             f.write(f"#EXTINF:-1,{name}\n{link}\n")
 
-    print("Готово! Создан файл playlist.m3u")
+    print("Готово! Создан файл debug_playlist.m3u")
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
