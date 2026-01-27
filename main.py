@@ -14,30 +14,35 @@ async def main():
     playlist = []
 
     async with async_playwright() as p:
-        # Запускаем Chrome (если установлен в CI)
         browser = await p.chromium.launch(
             headless=True,
-            executable_path="/usr/bin/google-chrome"  # путь к Chrome в GitHub Actions
+            executable_path="/usr/bin/google-chrome"
         )
         context = await browser.new_context()
         page = await context.new_page()
 
+        # Список для хранения найденных ссылок
+        found_links = {}
+
+        # Обработчик запросов
+        page.on("request", lambda request: (
+            found_links.setdefault(page.url, request.url)
+            if ".m3u8" in request.url else None
+        ))
+
         for name, url in channels.items():
             print(f"Открываю {name}...")
             try:
-                # Увеличенный таймаут и ожидание DOM
                 await page.goto(url, timeout=60000, wait_until="domcontentloaded")
-                await page.wait_for_timeout(10000)  # ждём 10 секунд
+                await page.wait_for_timeout(10000)
             except Exception as e:
                 print(f"Ошибка при загрузке {name}: {e}")
                 continue
 
-            # Перехватываем запросы
-            for request in context.requests:
-                if ".m3u8" in request.url:
-                    playlist.append((name, request.url))
-                    print(f"Найдено: {request.url}")
-                    break
+            # Проверяем, был ли найден .m3u8
+            if page.url in found_links:
+                playlist.append((name, found_links[page.url]))
+                print(f"Найдено: {found_links[page.url]}")
 
         await browser.close()
 
@@ -51,6 +56,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
