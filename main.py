@@ -14,7 +14,7 @@ async def main():
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
-            headless=True,
+            headless=False,
             executable_path="/usr/bin/google-chrome"
         )
         context = await browser.new_context()
