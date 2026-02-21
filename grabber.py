@@ -55,7 +55,7 @@ async def get_tokens_and_make_playlist():
         # Используем твой Chrome. headless=False — ты увидишь окно браузера.
         # Если хочешь, чтобы работало в фоне, поменяй на headless=True
         try:
-            browser = await p.chromium.launch(channel="chrome", headless=False)
+            browser = await p.chromium.launch(channel="chrome", headless=True)
         except:
             # Если Chrome не найден по стандартному пути, качаем встроенный Chromium
             print("(!) Google Chrome не найден, запускаю стандартный движок...")
