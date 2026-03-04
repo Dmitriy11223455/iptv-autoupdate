@@ -1,92 +1,92 @@
 #EXTM3U
 
 #EXTINF:-1, РОССИЯ 1
-https://edge02r.mediavitrina.ru/hls-livef1/russia1/tracks-v4a1/mono.m3u8?token=v2.lIZgwT3PJvfNZm-Ek92FvCcfbXl3fMFAk9EfRroZZ60.ZLrf-JGJ7PqsSmQgQMo1CNezDdvkShUTc6pOkUVsNd4.1773178834.5bc516315224be67b362ee942157b760|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01r.mediavitrina.ru/hls-livef1/russia1/tracks-v4a1/mono.m3u8?token=v2.t-GR0aEl-gZmm6wZbkVvLgIZX-DSuLOnMhmVPPdQPTg.6RNqtjMuWArSy7p-HduFzkRcphxlsnXE9_uaS56K_H4.1773204399.597dd8f7b30e6050356b48a4f980ebbd|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, НТВ
-https://edge01d.mediavitrina.ru/hls-livef1/ntv0h/tracks-v4a1/mono.m3u8?token=v2._GQTbxbIPHbd7KH6To8tX82lXvVgBsHZmM-kokD4gL4.TuIVXxeFA2qLf2HShxUbLsA8IGeZuaALiskDADDqK14.1773178847.5fa23192c13f86745562ea6a396ef637|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01d.mediavitrina.ru/hls-livef1/ntv0h/tracks-v4a1/mono.m3u8?token=v2.L_cH95XktJjP_7TjMHW01tcSVtA2wyXJ9fJX6domKpM.7IuFw2EVn-uWMS2VWnGno5spjb33hiP5nW13UoJu0Ik.1773204437.32e08c23754821261cc95f0fd51447ba|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, РЕН ТВ
-https://edge02r.mediavitrina.ru/hls-livef1/ren-tv/tracks-v4a1/mono.m3u8?token=v2.oMsnbbUDxWSj9TC4SiBs9dQV4BdNTVhKvwa6PCNqucw.OErlweOLrYE4UrnqR2aFnn1TX92PuUxyu8FXCEOMCKY.1773178860.685c4557ea15b1e3d518c1351bbff2cb|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01d.mediavitrina.ru/hls-livef1/ren-tv/tracks-v4a1/mono.m3u8?token=v2.7fajiRcedQlMXtkSWkqWO7FePzjzsI5eaxZ5VTLmhTA.DlxnHjUh1NvDFaMrq0WRulCMHr5rfM49ppgdBpP7Nnw.1773204450.9a2b9d451319cc3522f199521c98bf14|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ПЕРВЫЙ КАНАЛ
-https://edge01d.mediavitrina.ru/hls-livef1/1tv/tracks-v4a1/mono.m3u8?token=v2.a6IHiXrUZtWk-_-sYtRCzAtBNdy8Ujp_e2S-3Iw9SGg.Bz6KbWKpbNv20Im0bLM1majuHGq4ItS6l46faORiB9Y.1773178874.efcd28d1aaf9a3096ae178d00d2932ee|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge02r.mediavitrina.ru/hls-livef1/1tv/tracks-v4a1/mono.m3u8?token=v2.DF84OY6pCLZnzYd6WDwYIETcFhdzvishd-V1EnugywQ.X_KAzo8St0c58MTrO55v3WjoPuYdxA65tFDkLa0wIo4.1773204464.9ff39a025ab3be4d632ff42f797af1d7|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, РОССИЯ 24
-https://edge02d.mediavitrina.ru/hls-livef6/russia24/tracks-v4a1/mono.m3u8?token=v2.hHjvHGFnYrGthwlbWiUysr2l1er-gTDczrDqdlhzStQ.UFh2Q3dff2sk0VI_4APN4z8I6OIsoXkGY9hql_JyM-I.1773178887.9d96739016396a044c61bc73ed0076ce|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge02d.mediavitrina.ru/hls-livef6/russia24/tracks-v4a1/mono.m3u8?token=v2.0OLzA7CtrKrAU-8t7raPA7aMBtPpjJJb3nIZE4QAMko.8G7vYcrRFX6oeBrYQUjYyPatNNHcbSe6wlfgaGlod4g.1773204477.d4f8453afbd3fdf8a5d968f74f78477e|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, РТР ПЛАНЕТА
 https://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, КАНАЛ Ю
-https://server.musical.uz/tv/utv_web/index.m3u8?token=0a8f59c79a429b00919211bc90fb0f07a4c35df1-8b87140ebd464eeae120c243e0ba51fb-1772584663-1772573863&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/utv_web/index.m3u8?token=2416f28a0c54a535e23d414c2b226ffc1f9176ec-dde7060f52771c56ffb6bb1cf386efa5-1772610252-1772599452&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, МАТЧ ТВ
-https://edge02d.mediavitrina.ru/hls-livef1/matchtv/tracks-v3a1/mono.m3u8?token=v2.2JrKmruJGdcCXY-Gnp-OrfUmUKIMbln8upn8z81Xaq0.MkTZGFixjc3_QYSyabQF8ijX4D84SR0bChdpB5YwPcM.1773179039.a668337342e15039e4177b65a0eaf230|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge02r.mediavitrina.ru/hls-livef1/matchtv/tracks-v3a1/mono.m3u8?token=v2.a9gd5vnPkzLfHQDL2KkD097SVh2Ab5lPAkF-EON4ti4.KorZA5NaEo3RtXNTzppvrZ2wXrGs2BsGLOOavnRNa8I.1773204628.f74fd706222ae59c7bca0e811c75fa08|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, МОСФИЛЬМ ЗОЛОТАЯ КОЛЛЕКЦИЯ
-https://server.musical.uz/tv/mos-film_web/index.m3u8?token=681763e8e09fd36cfc7b18ba98c1d894bd249b18-7392b8d2a366bbdbd3210dc1df6285b9-1772584753-1772573953&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/mos-film_web/index.m3u8?token=001e43e37d9089c79d62368521f9992b2727cd30-6661cec1cde02b0da0d6e5c903ef4687-1772610342-1772599542&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ZO'R TV
-https://server.musical.uz/tv/zor-tv-uz/index.m3u8?token=9251a93f6e9949dd97a1ede740fc50e8c8e02a75-5df140a7247f1f9607efdb620c74de8b-1772584791-1772573991&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/zor-tv-uz/index.m3u8?token=b6269c4b404a7bbfff37c4d1e22a8d74d6ecf59a-908d70feaacc886c025494876227219f-1772610380-1772599580&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ПЯТЫЙ КАНАЛ
-https://edge02d.mediavitrina.ru/hls-livef7/5tv/tracks-v4a1/mono.m3u8?token=v2.MDmuxu3UfKruh7UvrAczlmSDYy8vjCYsbczhSvokatw.vkiGbjEx5CcFoehsIAU_VdXSiYaLsSGgl-uzVGT9TR4.1773179130.bd55eb0461ace7d9897095530a476f40|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01d.mediavitrina.ru/hls-livef7/5tv/tracks-v4a1/mono.m3u8?token=v2.clD76Czrv4pIzDE5V3NvbgQBZwBmUowfyYsI1FpiQgc.vfp6OPx8EHcy14pxURG4kAsvDbcFSvDFORVALQWPv8U.1773204694.5e37adfb1639a6580ee874a3be579d3b|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ТНТ
-https://edge02r.mediavitrina.ru/hls-livef8/tnt/tracks-v4a1/mono.m3u8?token=v2.YDcmGM5Ez0UK27ohc2fnu7E4uJBUxk2ubKX1LjILWAg.OH-CFiRxdcPuKK1lhxLaq7gwlvehDEw8D-6GEtzf32w.1773179143.87e46fc344df30bff3f530d455b031a2|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge02r.mediavitrina.ru/hls-livef8/tnt/tracks-v4a1/mono.m3u8?token=v2.bBOnXZKCxm2g6yh4u1KzaGGILrs8GsmBKCHlY6Px2NA.MUiQ3XHPMl8S-nUU-1AmxJA0evZ46zifLJMsMpfwIAM.1773204707.1b9ec50ccb7203b5c4f057addaf7197a|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ТВ ЦЕНТР
-https://edge01d.mediavitrina.ru/hls-livef1/tvc/tracks-v4a1/mono.m3u8?token=v2.BY4RIWc2EykaNxsxIpc8pOx01i8bh8ckVMxzxsJxTAQ.hMo0zws9SwytIu_JZUDuYcTqc5gXPa9QSPXM_Va2f-w.1773179157.8dd58a4a9b51f94490bbd6606144233b|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01r.mediavitrina.ru/hls-livef1/tvc/tracks-v4a1/mono.m3u8?token=v2.PpiqKkrMa147FJUXe2XG95hi4UQR05hSr2DvLIkVJ_c.L9UTpLX3YYChH-1NosrKzHNPLtAr6wC4LGOCgyE6QhA.1773204720.1d194a3d25df2893b83a0feb848df380|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, EURONEWS
-https://server.musical.uz/tv/euronews/index.m3u8?token=741ab441bb55001b73b48d8aa94c981867220740-e41cdda1a06bda0be3e5d3b059f57bb7-1772584870-1772574070&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/euronews/index.m3u8?token=d137d2c516f65e833ac579e91f9ff02bac69344f-e902e4b48b624dd5386bcf40da5beb6b-1772610433-1772599633&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ЗВЕЗДА
-https://edge01d.mediavitrina.ru/hls-livef8/zvezda0/tracks-v4a1/mono.m3u8?token=v2.sUzzLM-dRcg7lgUAqUMP5-WohuufYT4WJXOAigkqzaE.D_yDavMEoSzmiphCf6Uj9BzkZVHezjHfxNoGF5P-bcU.1773179208.2acfdfffeb1eb65ef8b1c2c4fe640540|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01r.mediavitrina.ru/hls-livef8/zvezda0/tracks-v4a1/mono.m3u8?token=v2.bXEn2e4QUVLrqJsfzAhvNNtg_2T8KxAJbwpPwXezrP0.jq0ybO2wGUOuyq1361LaurATQJDFU_Sf3Kxf_p3vmko.1773204772.3dcd2afb84d6b1ad8ad083d1e6bf85ee|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, НТВ ХИТ
-https://server.musical.uz/tv/ntvxit_web/index.m3u8?token=ddcb18edb825c83e40ec4936c1856b48af90692b-254c7c179660cbab64dca1377d718f42-1772584921-1772574121&remote=20.168.111.84|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/ntvxit_web/index.m3u8?token=5dbf751f45c81b718070de4b5e5f08f36b15cee7-f603547c0109d37e88d01700587c47aa-1772610485-1772599685&remote=20.236.100.1|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, COMEDY CENTRAL
-https://server.musical.uz/tv/paramount_web/index.m3u8?token=f4d1ff38e5cf170809c65ed44f6cdb58c2b95b2b-1d0f89e0fef75daf67e46340574f0b76-1772584959-1772574159&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/paramount_web/index.m3u8?token=3d765c41b2dde18c3af21e2e1046af03fb7d7da1-55d399c75eeddf08c630d507dbeeb6f1-1772610522-1772599722&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ДОМАШНИЙ
-https://edge02r.mediavitrina.ru/hls-livef1/ctc-dom/tracks-v4a1/mono.m3u8?token=v2.Dcf1O9gdxTDtjLeEbunVgw2Te5S5GPg1rauwpBVEReg.cRxENm2QRuoTqW4KhSsn1ExMtGt14O38cDaJRvIQJks.1773179297.f67317496283fbb3741b70c825e08879|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge02r.mediavitrina.ru/hls-livef1/ctc-dom/tracks-v4a1/mono.m3u8?token=v2.H95iXwwvRu4VCCmONljlmQEbfL6ajtOV8rgPjrqx10k.48ceqOqmdGhJ0uBnioHZLB_lQVy4w0b8MIl91-pQQrQ.1773204861.346ad2239b4bd8e67b69a77ef5e5e669|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, КИНО ТВ
-https://server.musical.uz/tv/kinotv_web/index.m3u8?token=06f377feea2957114482a89f941ed08384d46f90-ec9013206e4d5912c214eb8ea7c4c9c8-1772585010-1772574210&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/kinotv_web/index.m3u8?token=ce8663fe206f0155286d9834d9e197fb2c9ee984-792d34464ffd1d2b0f29ef480e0c37c6-1772610574-1772599774&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ДОМ КИНО
-https://server.musical.uz/tv/domkino_web/index.m3u8?token=5926b4b161630c529b73f38ba2cc9cf4644f471f-f2f5332863ba8415392d76a89fb41af8-1772585048-1772574248&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/domkino_web/index.m3u8?token=38cb3f0949c6e97c57185289fcd1bfc2ad8118bb-9f4f12f5d92193be073d67c1e8bd0be7-1772610612-1772599812&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, СОЛОВЬЕВ LIVE
-https://server.musical.uz/tv/solovev-live/index.m3u8?token=d598427b689147ad6635bf200de04ad25bce4713-a5791e5c7265e37d4159b2e390095451-1772585086-1772574286&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/solovev-live/index.m3u8?token=89ac992fa73ceb5bf7833ffd0848c1748a7237fa-546bcc406031cf714bd461e71431259a-1772610649-1772599849&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ПЯТНИЦА
-https://edge02r.mediavitrina.ru/hls-livef8/friday/tracks-v4a1/mono.m3u8?token=v2.oGeo_0YIr3OxZaLJn5lodwDjQY3mnkkjfhTiXiqYC38.7arAqsZWYDzYR8FDJ554dnZ5qjIEv5jA9_0sbRrmj38.1773179425.ca96d360e31aa81f5bd4bc868c7f469e|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01r.mediavitrina.ru/hls-livef8/friday/tracks-v4a1/mono.m3u8?token=v2.XgglYaj1FG6uUMJ42FC6766WaWzqvHKMxgETVyv5COo.0rPOgv00O7ltURVl91B2Dr6lojlPq5K3cjP6iNtXXcE.1773204988.eeadabb02ae8d26492a6c998fce32f18|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, SPORT TV
-https://server.musical.uz/tv/sport-tv-uz/index.m3u8?token=82ba729445659e7af6846fb788373433a684b3a9-6c2886a6524e4fa8b5b64cc931576bfc-1772585137-1772574337&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/sport-tv-uz/index.m3u8?token=7e6d771e31347a28eaf5cf1cf9b30f909f01ffe5-32c71cc9601e0be88286680d74d31505-1772610701-1772599901&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, СТС
-https://edge01d.mediavitrina.ru/hls-livef1/ctc/tracks-v4a1/mono.m3u8?token=v2.REyBpnsqabyESdMstP4-7pfT-32KD-kpGn_d_lzp0do.onRjEysPFKwdd89kYyzj1RQLvOSnbSezHhR6K7gVIZc.1773179476.1d9012d969c1466bbeae3da3f79269dc|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01d.mediavitrina.ru/hls-livef1/ctc/tracks-v4a1/mono.m3u8?token=v2.7OG3XpFvs3j7WrkvpJtrU47_V7bbuSqI1pqzekBQc-I.BIxqWCfQ-cppIdPpjq-vIj2s8n8SwM14WjKSycQuR8w.1773205039.86ad1da853aec4c324ea1225ee11f4be|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, МОСКВА ДОВЕРИЕ
-https://server.musical.uz/tv/moskva-doveria/index.m3u8?token=74f8c28a2f4bff1988f87a289a938baa8decab2e-b3f5fc18e727d928acf6ef1b78106ec6-1772585213-1772574413&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/moskva-doveria/index.m3u8?token=17a62131db3e6e80032eb891c818b0ae254ea2c4-635594cc94139cfe07eb9778813301ec-1772610752-1772599952&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, МИР
-https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/int/tracks-v1a1/mono.ts.m3u8?hls_proxy_host=66b2d1fd60123162dc1839635f0d1180|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, QAZSPORT
-https://server.musical.uz/tv/qazsport/index.m3u8?token=00d54fc86426e83bb78229ebd40b4bacf6b47605-d471272b0de204985124bdcbd45450d0-1772585265-1772574465&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server1.musical.uz/qazsport/index.m3u8?token=cf271bc154916abfad77c115d464ae3372faeda3-f7906567c49fdae189c6bc1c5fca210d-1772610803-1772600003&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ТВ3
-https://edge02r.mediavitrina.ru/hls-livef8/tv3/tracks-v4a1/mono.m3u8?token=v2.Z0NMBeInvynjPoBuTSLy3D6J8zPCS0_DzgOzas9g0KU.m3GNyXef-vJbfXbuL19SB7Im3OzBxzWlHny-pAUoW3M.1773179579.6cdd64b4ecb607696230069ec5f98fe7|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge02d.mediavitrina.ru/hls-livef8/tv3/tracks-v4a1/mono.m3u8?token=v2.b8Y3o2I6vJA-4kTxYlC1265K4eLzCj15N_AnXqqD9tw.-ThjkGBv-NFDHDII86uwJVxGvLAGOF786toNof7Lm6o.1773205117.4da31a65c1149f77c652bb079e6e7406|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, КАРУСЕЛЬ
-https://server.musical.uz/tv/karusel_web/index.m3u8?token=f0594db3cc8665db24fba5f58d4a514188c0ef54-b63fa5605b249869ccc0411f797370b4-1772585292-1772574492&remote=20.168.111.84|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://server.musical.uz/tv/karusel_web/index.m3u8?token=667be135647351fe57b81c3e85a2bd111630422c-6859e981b2b367b4f3920588901b830a-1772610830-1772600030&remote=20.236.100.1|Referer=https://smotrettv.comMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1, ОБЩЕСТВЕННЫЕ
-https://edge02d.mediavitrina.ru/hls-livef1/russia1/tracks-v4a1/mono.m3u8?token=v2.aBzS0ieLuJa1QYURyJHtI59dcYioFNWQuGAiuiSPw0M.IUG-cjREFZPCS6tRGY3dSptOgF_ZNYlPZRj3AUP2av4.1773180249.5b07141498568de533a2a32ee2ae7ae7|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+https://edge01r.mediavitrina.ru/hls-livef1/russia1/tracks-v4a1/mono.m3u8?token=v2.RTKokm-9nnfM_bRIlCAbAgnVtyeEup3wknxVOHgWR8U.rJgAqqZ68NPI5xxHGoymlU_GcpyoLQjWWh4cOch3HFw.1773205785.ca8af8f2c7eeaf9478824895e6e5d0e1|Referer=https://player.mediavitrina.ruMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
