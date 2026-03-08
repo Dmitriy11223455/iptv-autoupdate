@@ -3,7 +3,7 @@ name: Update IPTV Playlist
 on:
   schedule:
     # Запуск каждые 3 часа (формат UTC)
-    - cron: '0 */3 * * *'
+    - cron: '53 4 */4 * *'
   workflow_dispatch: # Позволяет запускать скрипт вручную кнопкой
 
 jobs:
